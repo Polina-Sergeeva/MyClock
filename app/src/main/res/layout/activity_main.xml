@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/style_background"
+        tools:context=".MainActivity">
+
+
+        <space.sergeeva.myclock.MyClock
+            android:id="@+id/analog_clock"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:clock_big_scale_color="@color/clock_big_scale_color"
+            app:clock_hour_color="@color/clock_hour_hand_color"
+            app:clock_minute_color="@color/clock_minute_hand_color"
+            app:clock_ring_color="@color/clock_ring_color"
+            app:clock_second_color="@color/clock_second_hand_color"
+            app:clock_small_scale_color="@color/clock_small_scale_color"
+            app:clock_text_color="@color/clock_numbers_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

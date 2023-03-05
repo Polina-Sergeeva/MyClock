@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyClock">
+        <attr name="clock_ring_color" format="color" />
+        <attr name="clock_hour_color" format="color"/>
+        <attr name="clock_minute_color" format="color"/>
+        <attr name="clock_second_color" format="color"/>
+        <attr name="clock_big_scale_color" format="color"/>
+        <attr name="clock_small_scale_color" format="color"/>
+        <attr name="clock_text_color" format="color"/>
+    </declare-styleable>
+</resources>
